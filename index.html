@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cn">
+        <h1 id="titleName"> VEGETABLE SALAD </h1>
+
+        <div class="row">
+            <div class="column"><img id="vegetableSaladImage" src="./salad.jpg" alt="" style="width:100%"></div>
+            <div class="column">
+                <img class="im2" src="./sal 2.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column">
+                <img class="im3" src="./sal.jpg" alt="" style="width:100%">
+            </div>
+        </div>
+        <hr />
+
+        <div class="conn">
+            <h2 id="benefits">BENEFITS</h2>
+            <p id="benefitsParagraph"> Salad contain Vitamin A, Vitamin C, beta-carotene, calcium, folate, fiber, and
+                phytonutrients.
+                Leafy vegetables are a good choice for a healthful diet because they do not contain cholesterol and are
+                naturally low in calories and sodium. </p>
+
+            <h2 id="steps"> STEPS TO PREPARE SALAD</h2>
+            <ul id="stepForVegetableSalad">
+                <ul class="st">
+                <li> Bring a large pot of water to a boil.</li>
+                <li> In a bowl, whisk together all ingredients except oil, salt and pepper.</li>
+                <li> Whisking constantly, slowly drizzle in oil. Season with salt and pepper.</li>
+                <li> Add carrots, broccoli and cauliflower to boiling water and cook until just tender, about 4 minutes.
+                </li>
+                <li> Drain and rinse under cold water.</li>
+                <li> In a large salad bowl, toss cooked vegetables, bell pepper, onion and cherry tomatoes with
+                    dressing. </li>
+                <li> Cover and chill for at least 30 minutes.</li>
+                <li> Toss again just before serving.</li></ul>
+            </ul>
+            <hr />
+            <footer id="footerText">This simple Vegetable salad contains nutrients and minerals which help to prevent
+                chronic diseases like cancer and heart disease. </footer>
+            <hr />
+        </div>
+    </div>
+
+</body>
+
+</html>
